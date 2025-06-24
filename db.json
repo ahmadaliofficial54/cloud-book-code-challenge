@@ -1,0 +1,136 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Alice",
+      "email": "alice@example.com",
+      "password": "password123",
+      "role": "author"
+    },
+    {
+      "id": "e78d",
+      "name": "ahmad.aliadp@gmail.com",
+      "email": "ahmad.aliadp@gmail.com",
+      "password": "ahmad.aliadp@gmail.com",
+      "role": "collaborator"
+    },
+    {
+      "id": "9ed3",
+      "name": "ahmad.aliadp@gmail.com",
+      "email": "ahmad.aliadp@gmail.com",
+      "password": "ahmad.aliadp@gmail.com",
+      "role": "collaborator"
+    },
+    {
+      "id": "6ba7",
+      "name": "ahmad.aliadp@gmail.com",
+      "email": "ahmad.aliadp@gmail.com",
+      "password": "ahmad.aliadp@gmail.com",
+      "role": "author"
+    },
+    {
+      "id": "1827",
+      "name": "ahmad.alia@gmail.com",
+      "email": "ahmad.alia@gmail.com",
+      "password": "ahmad.alia@gmail.com",
+      "role": "collaborator"
+    },
+    {
+      "id": "ab70",
+      "name": "Ahmad Ali",
+      "email": "ahmad.ali@gmail.com",
+      "password": "ahmad.ali@gmail.com",
+      "role": "author"
+    },
+    {
+      "id": "71d6",
+      "name": "ahmad@gmail.com",
+      "email": "ahmad@gmail.com",
+      "password": "ahmad@gmail.com",
+      "role": "author"
+    }
+  ],
+  "books": [
+    {
+      "title": "Hello Dolly",
+      "updatedAt": "2025-06-23T17:01:25.246Z",
+      "id": "049d"
+    },
+    {
+      "id": "06b1",
+      "title": "my book",
+      "author": "ahmad@gmail.com",
+      "createdAt": "2025-06-24T12:12:34.227Z",
+      "updatedAt": "2025-06-24T12:12:34.227Z",
+      "collaborators": []
+    },
+    {
+      "title": "123-123",
+      "updatedAt": "2025-06-24T13:45:13.187Z",
+      "id": "2fef"
+    },
+    {
+      "id": "e461",
+      "title": "hello",
+      "author": "ahmad.ali@gmail.com",
+      "createdAt": "2025-06-24T13:47:36.395Z",
+      "updatedAt": "2025-06-24T13:47:36.395Z",
+      "collaborators": [
+        "ahmad.aliadp@gmail.com"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "bookId": "e461",
+      "title": "Introduction",
+      "content": "Welcome to the book!",
+      "children": []
+    },
+    {
+      "id": "s2",
+      "bookId": "e461",
+      "title": "Chapter 1",
+      "content": "This is the first chapter.",
+      "children": []
+    },
+    {
+      "id": "8315",
+      "title": "jm",
+      "content": "",
+      "parentId": "e4bd",
+      "bookId": "e461",
+      "children": []
+    },
+    {
+      "id": "d607",
+      "title": "cdsaabc",
+      "content": "nkhbk",
+      "children": [],
+      "bookId": "e461"
+    },
+    {
+      "id": "61b9",
+      "title": "csdcsdmjiw",
+      "content": "ckdmskcj\n\n",
+      "parentId": "d607",
+      "bookId": "e461",
+      "children": []
+    },
+    {
+      "id": "80a0",
+      "title": "123",
+      "content": "cds",
+      "children": [],
+      "bookId": "e461"
+    },
+    {
+      "id": "66ff",
+      "title": "hello",
+      "content": "hi\n",
+      "children": [],
+      "bookId": "06b1"
+    }
+  ]
+}
