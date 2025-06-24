@@ -48,7 +48,7 @@ npm start
 npm test -- src/utils/permissions.test.js --watchAll=false
 ```
 
-### 4. Run JSON Server Backend
+### 5. Run JSON Server Backend
 ```bash
 npx json-server db.json --port 3001
 ```
